@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/CurrentViewer">
+        <file>Resources/icons/app.ico</file>
+        <file>Resources/icons/TreeIcon/icon_DL.png</file>
+        <file>Resources/icons/TreeIcon/icon_DL_select.png</file>
+        <file>Resources/icons/TreeIcon/icon_office.png</file>
+        <file>Resources/icons/TreeIcon/icon_substation_select.png</file>
+        <file>Resources/icons/TreeIcon/icon_substation.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>StyleSheet/qss/currentviewer.qss</file>
+    </qresource>
+</RCC>

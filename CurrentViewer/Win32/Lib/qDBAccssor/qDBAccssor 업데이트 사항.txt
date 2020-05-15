@@ -1,0 +1,18 @@
+﻿* CurrentLogV2 업데이트 사항
+
+***	qDBAccssor.dll	***
+
+	ver 1.0.0.4	( 16-04-12 ) 수정사항
+		1. SQLNCLI , SQLNCLI.1 , SQLNCLI10.1 , SQLNCLI11.1 공급자 사용 가능
+		2. failover 기능 사용 가능
+
+	ver 1.0.0.5	( 16-05-16 ) 수정사항
+		1. TDM DB 접속을 위한 DB 타입 추가
+			- HEAD 로 입력 ( db_config.xml )
+		2. GetServerCount() 함수 추가
+			- 사업소 갯수 확인용
+		3. GetServerOfficeCount() 함수 추가
+			- TDM DB 제외한 사업소 갯수 확인용
+	
+	ver 1.0.0.6	( 16-05-16 ) 수정사항
+		1. GetOfficeName() 함수 추가

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<db_configure>
+<area server_name="3982" office_name="서울">
+	<slot dbType="das">
+		<provider>SQLOLEDB.1</provider>
+		<data_source>localhost</data_source>
+		<db_name>das</db_name>
+		<user_id>sa</user_id>
+		<user_password>3300</user_password>
+	</slot>
+	<slot dbType="daslog">
+		<provider>SQLOLEDB.1</provider>
+		<data_source>localhost</data_source>
+		<db_name>daslog</db_name>
+		<user_id>sa</user_id>
+		<user_password>3300</user_password>
+	</slot>
+</area>
+</db_configure>
